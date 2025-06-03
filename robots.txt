@@ -1,0 +1,65 @@
+# Robots.txt for Anushka Beauty Care Website
+# Best Ladies Parlour in Imamganj, Bihar
+
+User-agent: *
+Allow: /
+
+# Allow all important pages
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /gallery.html
+Allow: /appointment.html
+Allow: /testimonials.html
+Allow: /contact.html
+Allow: /offers.html
+Allow: /blog.html
+
+# Allow CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Allow common image formats
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+
+# Disallow admin or private directories (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://anushkabeautycare.com/sitemap.xml
+
+# Popular search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots (optional)
+User-agent: BadBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

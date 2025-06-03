@@ -1,0 +1,115 @@
+Ultimate Prompt for Replit: Futuristic Parlour Website
+Prompt:
+
+You are a top web developer and designer.
+Create a complete, multi-page, visually stunning, and futuristic website for "Anushka Beauty Care" (a ladies parlour in Imamganj, Bihar) using only HTML, CSS, and JavaScript.
+No frameworks, no backend, no PHP, no React, no external CSS/JS except Google Fonts and FontAwesome.
+All code must be in HTML, CSS, and JavaScript only.
+All images can be placeholders or royalty-free links.
+Organize code in separate files for each page, header, footer, CSS, and JS.
+Add comments in code for clarity.
+
+Folder Structure:
+/index.html
+/about.html
+/services.html
+/gallery.html
+/appointment.html
+/testimonials.html
+/contact.html
+/offers.html
+/blog.html
+/header.html
+/footer.html
+/css/styles.css
+/js/main.js
+/images/ (use placeholder images)
+/sitemap.xml
+/robots.txt
+Header (header.html):
+Unique, futuristic design (use glassmorphism, gradients, or neon effects).
+Parlour name, logo (placeholder), and navigation menu (Home, About Us, Services, Gallery, Book Appointment, Testimonials, Contact Us).
+Responsive hamburger menu for mobile.
+Sticky header with smooth shadow on scroll.
+Use Google Fonts for a modern look.
+Add a subtle animated underline or hover effect on navigation links.
+Footer (footer.html):
+Address ("Imamganj, Bihar"), phone, email, social media icons (FontAwesome).
+Futuristic design (gradient background, glass effect, or soft glow).
+Copyright.
+Quick links to main pages.
+Homepage (index.html):
+Hero section: Large, beautiful background image (parlour/beauty theme), parlour name, tagline, and a glowing "Book Appointment" button.
+2-3 high quality images in a modern carousel/slider (JS).
+Short intro about the parlour with a soft card or glass effect.
+Highlight main services with icons/images in a grid (e.g., Facial, Bridal Makeup, Hair Cut, etc.).
+"Why Choose Us" section with 3-4 points and icons.
+Testimonials preview (2-3 reviews, slider).
+Call-to-action section with WhatsApp button.
+All images must have alt text.
+About Us (about.html):
+Owner introduction with image.
+Parlour story in a timeline or card style.
+Team members (images, names, roles) in a modern grid.
+Mission/vision with icons or illustrations.
+Services (services.html):
+List of services (facial, waxing, threading, hair cut, bridal makeup, etc.).
+Each service: image, name, short description, price, and a "Book Now" button.
+Modern card layout with hover effects.
+FAQs section at the bottom (accordion style, show/hide answers with JS).
+Gallery (gallery.html):
+Grid of 8-10 images (use placeholders or Unsplash links).
+Before/after photos, bridal/event photos.
+Clicking an image opens a lightbox (JS).
+Futuristic hover effect on images.
+Book Appointment (appointment.html):
+Modern, clean form: Name, Phone, Service (dropdown), Date, Time.
+Form validation in JavaScript.
+On submit, show a thank you message (no backend).
+WhatsApp direct booking button (pre-filled message).
+Animated form fields (focus/active effects).
+Testimonials (testimonials.html):
+4-5 customer reviews (placeholder names/photos), star ratings, and feedback.
+Testimonials slider/carousel (JS).
+Futuristic card design with soft shadows or glass effect.
+Contact Us (contact.html):
+Address ("Imamganj, Bihar"), Google Map embed (iframe).
+Phone, WhatsApp, email, opening hours.
+Contact form: Name, Email, Message (JS validation).
+Modern, clean layout with icons.
+Offers/Packages (offers.html):
+Section for current offers/discounts/packages (sample data).
+Attractive cards with images, offer details, and "Book Now" button.
+Blog (blog.html):
+2-3 sample blog posts (e.g., "Bridal Makeup Tips", "Skin Care After Facial").
+Each post: image, title, short intro, "Read More" link.
+Design:
+Use a futuristic, elegant, and mobile-friendly design.
+Use glassmorphism, gradients, soft glows, and modern cards.
+Parlour theme colors: soft pinks, whites, golds, and a touch of neon or pastel.
+CSS for hover effects, animated buttons, and cards.
+Responsive navigation and layout for all devices.
+Google Fonts for typography (suggest: "Poppins", "Montserrat", or similar).
+SEO:
+Each page must have a unique <title> and <meta description> (use local keywords like "Ladies parlour in Imamganj Bihar", "Best beauty parlour in Imamganj", etc.).
+Use proper heading tags (H1, H2, H3) with keywords.
+All images must have alt text with relevant keywords.
+Use semantic HTML structure.
+Add a sitemap.xml and robots.txt file.
+JavaScript Functionality:
+Form validation for appointment and contact forms.
+Image gallery with lightbox effect.
+Smooth scroll for navigation.
+Testimonials slider/carousel.
+Responsive hamburger menu.
+Show/hide FAQ answers (accordion).
+Homepage image slider/carousel.
+Other Instructions:
+No backend or database required.
+All content, images, and data can be placeholders or sample data.
+All code must be in HTML, CSS, and JavaScript only.
+Organize code in separate files for each page, header, footer, CSS, and JS.
+Add comments in code for clarity.
+Please generate all the code and sample content as per above instructions, and make sure the website is fully working, visually stunning, mobile-friendly, and easy to navigate.
+Focus on a unique, futuristic, and elegant design for the header, homepage, and all sections.
+Use only HTML, CSS, and JavaScript.

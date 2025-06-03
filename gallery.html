@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Anushka Beauty Care | Bridal Makeup Portfolio & Beauty Work in Imamganj Bihar</title>
+    <meta name="description" content="View our stunning gallery of bridal makeup, hair styling, and beauty transformations at Anushka Beauty Care, Imamganj, Bihar. See our work and get inspired.">
+    <meta name="keywords" content="Anushka Beauty Care gallery, bridal makeup portfolio Imamganj, beauty work Bihar, before after photos, wedding makeup gallery">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Our Gallery</h1>
+                <p>Showcasing our beautiful transformations and artistic work</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <span>Gallery</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="categories-filter">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="bridal">Bridal Makeup</button>
+                <button class="filter-btn" data-filter="hair">Hair Styling</button>
+                <button class="filter-btn" data-filter="party">Party Makeup</button>
+                <button class="filter-btn" data-filter="before-after">Before & After</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Bridal Makeup Images -->
+                <div class="gallery-item glass-card" data-category="bridal" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g19ff1f6763529bbd72bfba7528b6c7818eb0f9c6be3de7090ef4017a0b277a6920199e139b8da3536c6b34a2155255fbe8350f1e29c8d8cedcc91c46f9473882_1280.jpg" alt="Beautiful bridal makeup by Anushka Beauty Care" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Bridal Makeup</h3>
+                            <p>Traditional bridal look</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="bridal" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g6ca1444cd416ef4eee96f0b4f8e47aec2654c2316d8a456bd512edd2525973b0d119c2b00210da83e632256922689f9153b5d46a404599fd345d59b2820e39d5_1280.jpg" alt="Elegant bridal transformation" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Bridal Makeup</h3>
+                            <p>Elegant bridal transformation</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="bridal" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/gd3f13e7bb3559ad3c22256381dc4c53e55005f47d687bc90c9719a0e4f4991905489ae730be9f344e22d84570a51cb1c05aae455fee8db1d859bc2a56879a996_1280.jpg" alt="Stunning bridal look with traditional jewelry" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Bridal Makeup</h3>
+                            <p>Traditional bridal styling</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hair Styling Images -->
+                <div class="gallery-item glass-card" data-category="hair" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g31fae2ae86f139d3a475d80ec62147a0664534b0699758cbe4767a1e0a34695d2635931ba6835e4f7217f0a04fb29b8a2cc0b94f30053e14a3f0aa540e9fc2e5_1280.jpg" alt="Professional hair styling and cutting" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Hair Styling</h3>
+                            <p>Modern hair cut and style</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="hair" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/gf06597c1f63a87efdb7171af1ba06407e3100f000ad406f4da850ec3f07f737713a73c06a1afa8372ffbfd0fdace3d93dc7d709b3ed6d2f75f67e7d1a8fb535f_1280.jpg" alt="Beautiful hair transformation and treatment" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Hair Styling</h3>
+                            <p>Hair treatment results</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="hair" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/ga47d9c285f3396f8590a5c46e2852054a8a09f6233778de4f11e8d95d7f0a9497ac930c435c5f5def05757cc50975b8018aba6958f94faaf5b1dd3282f1d2288_1280.jpg" alt="Creative hair styling for special occasions" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Hair Styling</h3>
+                            <p>Special occasion styling</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Party Makeup Images -->
+                <div class="gallery-item glass-card" data-category="party" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/gb0b77ec08ae6e2360a9aa4760aee2558c41c3bb417430cc36c598eb9168c565a6b258827c78784ef1b216b13b7521e5a29142776f449d54f4cbf870f2ddb8710_1280.jpg" alt="Glamorous party makeup look" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Party Makeup</h3>
+                            <p>Glamorous evening look</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="party" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g58f51cd804cc5f22c592d1968f9e384887ca17bbb87bfef59b4c0dc2fc662e21080bd8ece20221f9ae78ccd6858bac6fa1679d42748b4d5e255b968b1cb30a84_1280.jpg" alt="Elegant party makeup with natural glow" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Party Makeup</h3>
+                            <p>Natural party look</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Before & After / Facial Treatment -->
+                <div class="gallery-item glass-card" data-category="before-after" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g490b4bb90631034a0cc8703a384113b3de12520b2b8afe6a8e84bd89dbe0a77bcae542b3a9ecbbdcdd0334dabd29bda81e83d68e7b5e4971698b3dc1fe9ad10899fd640eae20aa925_1280.jpg" alt="Facial treatment results showing glowing skin" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Facial Treatment</h3>
+                            <p>Glowing skin results</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="before-after" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g71e40bf9e7ce433b341a510ad26855988beb019cd7d391b947b2651fc7dfce51ddf7b03adfa64e6e2a531c4c8a196e71f548b819850852964450480d2e3b2003_1280.jpg" alt="Skin transformation after facial treatment" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Facial Treatment</h3>
+                            <p>Skin transformation</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beauty Services -->
+                <div class="gallery-item glass-card" data-category="party" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/gd819b6e9413003720bb0b9d768ad4e44a38c649e7d31f7a4af5b5910c3d4f8b462240be40e8ac815a4586d12d728d72217a58507addfa6047ef5656bc141714f_1280.jpg" alt="Professional beauty services at parlour" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Beauty Services</h3>
+                            <p>Professional care</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="before-after" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g0496bb2494e50ac7c0d26c027a4bd2ce93523fa714f5e1815c062c8945f23f9f2bd716df450d5277480b7976f872db47f7574f57d8132dbe295850328996b06b_1280.jpg" alt="Nail care and beauty services" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Nail Care</h3>
+                            <p>Manicure & Pedicure</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parlour Interior -->
+                <div class="gallery-item glass-card" data-category="bridal" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g228e1e8b8cc793c9141d4c9f22f0b299ca710286db0356f754df0c68e5969a60a31a9c17ae5e5f63dbe7061346f09aba4badaa33c23a4fa9c2ad4c0da9d4c8cd_1280.jpg" alt="Anushka Beauty Care parlour interior" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Our Parlour</h3>
+                            <p>Modern facilities</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item glass-card" data-category="hair" onclick="openLightbox(this)">
+                    <img src="https://pixabay.com/get/g25380b064126a2b4ef5752e6ca025dd54529ff7d59b404ef758856b5184837bb30f321fd8f065dfb9d9226a33fee40dc43ccaa7d152e9dee2d848bffb2077e65_1280.jpg" alt="Professional beauty equipment and setup" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Our Setup</h3>
+                            <p>Professional equipment</p>
+                        </div>
+                        <div class="gallery-action">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="load-more-btn glass-card" onclick="loadMoreImages()">
+                    <i class="fas fa-plus"></i> Load More Images
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Stats -->
+    <section class="gallery-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card glass-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Bridal Makeovers</div>
+                </div>
+                <div class="stat-card glass-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-card glass-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar"></i>
+                    </div>
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card glass-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" onclick="previousImage()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-next" onclick="nextImage()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content glass-card">
+                <h2>Inspired by Our Work?</h2>
+                <p>Book your appointment today and let us create your perfect look</p>
+                <div class="cta-buttons">
+                    <a href="appointment.html" class="cta-btn glow-btn">
+                        <i class="fas fa-calendar-plus"></i> Book Appointment
+                    </a>
+                    <a href="services.html" class="cta-btn">
+                        <i class="fas fa-spa"></i> View Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

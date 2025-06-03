@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Anushka Beauty Care | Online Booking for Beauty Services in Imamganj Bihar</title>
+    <meta name="description" content="Book your appointment online at Anushka Beauty Care, Imamganj, Bihar. Easy booking for bridal makeup, hair styling, facial treatments and all beauty services.">
+    <meta name="keywords" content="book appointment Anushka Beauty Care, online booking Imamganj parlour, beauty appointment Bihar, bridal makeup booking">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Book Your Appointment</h1>
+                <p>Schedule your beauty session with ease</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <span>Book Appointment</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-container">
+                <!-- Booking Form -->
+                <div class="booking-form glass-card">
+                    <div class="form-header">
+                        <h2><i class="fas fa-calendar-plus"></i> Book Your Appointment</h2>
+                        <p>Fill in your details and we'll confirm your booking</p>
+                    </div>
+                    
+                    <form id="appointmentForm" class="appointment-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">
+                                    <i class="fas fa-user"></i> Full Name *
+                                </label>
+                                <input type="text" id="fullName" name="fullName" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">
+                                    <i class="fas fa-phone"></i> Phone Number *
+                                </label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i> Email Address
+                                </label>
+                                <input type="email" id="email" name="email">
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">
+                                    <i class="fas fa-spa"></i> Select Service *
+                                </label>
+                                <select id="service" name="service" required>
+                                    <option value="">Choose a service</option>
+                                    <option value="bridal-makeup">Bridal Makeup Package (₹5,000 - ₹8,000)</option>
+                                    <option value="pre-bridal">Pre-Bridal Package (₹3,500 - ₹5,000)</option>
+                                    <option value="hair-cut">Hair Cut & Styling (₹200 - ₹500)</option>
+                                    <option value="hair-treatment">Hair Treatment (₹800 - ₹1,500)</option>
+                                    <option value="glow-facial">Glow Facial (₹600 - ₹1,000)</option>
+                                    <option value="anti-aging-facial">Anti-Aging Facial (₹1,200 - ₹2,000)</option>
+                                    <option value="party-makeup">Party Makeup (₹800 - ₹1,500)</option>
+                                    <option value="natural-makeup">Natural Makeup (₹400 - ₹800)</option>
+                                    <option value="threading-waxing">Threading & Waxing (₹50 - ₹1,200)</option>
+                                    <option value="manicure-pedicure">Manicure & Pedicure (₹300 - ₹600)</option>
+                                    <option value="consultation">Consultation Only</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">
+                                    <i class="fas fa-calendar"></i> Preferred Date *
+                                </label>
+                                <input type="date" id="date" name="date" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">
+                                    <i class="fas fa-clock"></i> Preferred Time *
+                                </label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select time</option>
+                                    <option value="09:00">9:00 AM</option>
+                                    <option value="09:30">9:30 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="10:30">10:30 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="12:30">12:30 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="13:30">1:30 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="14:30">2:30 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="15:30">3:30 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="16:30">4:30 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="17:30">5:30 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="18:30">6:30 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="19:30">7:30 PM</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="occasion">
+                                <i class="fas fa-star"></i> Special Occasion
+                            </label>
+                            <select id="occasion" name="occasion">
+                                <option value="">Select occasion (optional)</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="engagement">Engagement</option>
+                                <option value="reception">Reception</option>
+                                <option value="party">Party/Function</option>
+                                <option value="festival">Festival</option>
+                                <option value="regular">Regular Visit</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Additional Notes
+                            </label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any specific requirements or allergies..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <a href="https://wa.me/+917033052534?text=Hi, I would like to book an appointment" style="display:inline-block; margin-top:1rem; background:#c2185b; color:white; padding:10px 500px; border-radius:30px; text-decoration:none; font-weight:bold;">Book Now</a>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Booking Info -->
+                <div class="booking-info">
+                    <div class="info-card glass-card">
+                        <h3><i class="fas fa-clock"></i> Working Hours</h3>
+                        <div class="timing">
+                            <div class="timing-row">
+                                <span>Monday - Sunday</span>
+                                <span>9:00 AM - 8:00 PM</span>
+                            </div>
+                            <div class="timing-note">
+                                <i class="fas fa-info-circle"></i>
+                                <span>We are open all days. For emergency bookings, please call directly.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card glass-card">
+                        <h3><i class="fas fa-whatsapp"></i> Quick Booking</h3>
+                        <p>Book instantly via WhatsApp for faster confirmation</p>
+                       <a href="https://wa.me/+917033052534?text=Hi, I would like to book an appointment at Anushka Beauty Care" target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Book via WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="info-card glass-card">
+                        <h3><i class="fas fa-phone"></i> Contact Information</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 7033052534</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@anushkabeautycare.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Imamganj, Bihar, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card glass-card">
+                        <h3><i class="fas fa-star"></i> Popular Services</h3>
+                        <div class="popular-services">
+                            <div class="service-item">
+                                <span>Bridal Makeup</span>
+                                <span class="price">₹5,000+</span>
+                            </div>
+                            <div class="service-item">
+                                <span>Hair Styling</span>
+                                <span class="price">₹200+</span>
+                            </div>
+                            <div class="service-item">
+                                <span>Facial Treatment</span>
+                                <span class="price">₹600+</span>
+                            </div>
+                            <div class="service-item">
+                                <span>Party Makeup</span>
+                                <span class="price">₹800+</span>
+                            </div>
+                        </div>
+                        <a href="services.html" class="view-all-services">View All Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Guidelines -->
+    <section class="booking-guidelines">
+        <div class="container">
+            <div class="section-header">
+                <h2>Booking Guidelines</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="guidelines-grid">
+                <div class="guideline-card glass-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h4>Advance Booking</h4>
+                    <p>Book at least 24 hours in advance for regular services. For bridal packages, book 2-3 months ahead.</p>
+                </div>
+                <div class="guideline-card glass-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Punctuality</h4>
+                    <p>Please arrive 10 minutes early for your appointment to ensure adequate preparation time.</p>
+                </div>
+                <div class="guideline-card glass-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h4>Payment</h4>
+                    <p>We accept cash and digital payments. For bridal packages, advance payment is required.</p>
+                    </div>
+                <div class="guideline-card glass-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h4>Cancellation</h4>
+                    <p>Cancellations must be made 24 hours in advance. Emergency cancellations are subject to charges.</p>
+                </div>
+                <div class="guideline-card glass-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Safety First</h4>
+                    <p>Please inform us about any skin allergies or sensitivities before your appointment.</p>
+                </div>
+                <div class="guideline-card glass-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4>Home Service</h4>
+                    <p>Home service available for bridal makeup within Imamganj area. Additional charges apply.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content glass-card">
+            <div class="modal-header">
+                <i class="fas fa-check-circle"></i>
+                <h2>Booking Confirmed!</h2>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for choosing Anushka Beauty Care! Your appointment request has been received.</p>
+                <div class="booking-details" id="bookingDetails">
+                    <!-- Booking details will be populated here -->
+                </div>
+                <p><strong>What's Next?</strong></p>
+                <ul>
+                    <li>We'll call you within 2 hours to confirm your appointment</li>
+                    <li>You'll receive a confirmation message on WhatsApp</li>
+                    <li>Please arrive 10 minutes early on your appointment day</li>
+                </ul>
+            </div>
+            <div class="modal-actions">
+                <button class="modal-btn" onclick="closeModal()">Close</button>
+                <a href="https://wa.me/+917033052534" target="_blank" class="modal-btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

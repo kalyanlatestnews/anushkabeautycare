@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Special Offers - Anushka Beauty Care</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6e6, #fff0f0);
+      color: #333;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #c2185b;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .section-header {
+      margin-bottom: 2rem;
+    }
+    .section-line {
+      width: 60px;
+      height: 4px;
+      background: #c2185b;
+      margin: 0.5rem auto;
+      border-radius: 4px;
+    }
+    .offers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .offer-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      flex: 1;
+      transition: transform 0.3s ease;
+      border: 3px solid #ff4081;
+    }
+    .offer-card:hover {
+      transform: translateY(-5px);
+    }
+    .offer-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .offer-content {
+      padding: 1rem 1.5rem;
+    }
+    .offer-content h3 {
+      margin-top: 0;
+    }
+    .offer-features span {
+      display: block;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    .offer-pricing {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .original-price {
+      text-decoration: line-through;
+      color: #999;
+      margin-right: 10px;
+    }
+    .offer-price {
+      color: #388e3c;
+      font-weight: bold;
+    }
+    .savings {
+      display: block;
+      color: #d32f2f;
+    }
+    .offer-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #c2185b;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .offer-btn:hover {
+      background: #ad1457;
+    }
+    .banner-content {
+      background: linear-gradient(90deg, #ff80ab, #ff4081);
+      color: white;
+      padding: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      margin-bottom: 2rem;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(255, 64, 129, 0.5); }
+      70% { box-shadow: 0 0 0 20px rgba(255, 64, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 64, 129, 0); }
+    }
+    .countdown-timer {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+    .timer-unit {
+      text-align: center;
+    }
+    .timer-unit span {
+      font-size: 2rem;
+      display: block;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .offers-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="banner-content">
+      <h2><i class="fas fa-fire"></i> HURRY! Exclusive Offers Ending Soon</h2>
+      <p>Bridal, Party, and Monthly Beauty Deals</p>
+      <div class="countdown-timer">
+        <div class="timer-unit">
+          <span id="days">00</span>
+          <label>Days</label>
+        </div>
+        <div class="timer-unit">
+          <span id="hours">00</span>
+          <label>Hours</label>
+        </div>
+        <div class="timer-unit">
+          <span id="minutes">00</span>
+          <label>Mins</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-header">
+      <h2>🎁 Featured Offers</h2>
+      <div class="section-line"></div>
+      <p>Don't miss these handpicked combos and savings!</p>
+    </section>
+
+    <div class="offers-grid">
+      <!-- Bridal Offer -->
+      <div class="offer-card">
+        <div class="offer-image">
+          <img src="https://pixabay.com/get/g19ff1f6763529bbd72bfba7528b6c7818eb0f9c6be3de7090ef4017a0b277a6920199e139b8da3536c6b34a2155255fbe8350f1e29c8d8cedcc91c46f9473882_1280.jpg" alt="Bridal Package" />
+        </div>
+        <div class="offer-content">
+          <h3>Ultimate Bridal Package</h3>
+          <p>Everything for your big day + trial & kit</p>
+          <div class="offer-features">
+            <span>✔️ Pre-bridal facials</span>
+            <span>✔️ Hair spa & styling</span>
+            <span>✔️ Trial session</span>
+            <span>✔️ Wedding Day Makeup</span>
+          </div>
+          <div class="offer-pricing">
+            <span class="original-price">₹12,000</span>
+            <span class="offer-price">₹9,000</span>
+            <span class="savings">You Save ₹3,000</span>
+          </div>
+          <a href="appointment.html" class="offer-btn">Book This Package</a>
+        </div>
+      </div>
+
+      <!-- Party Combo -->
+      <div class="offer-card">
+        <div class="offer-image">
+          <img src="https://pixabay.com/get/gb0b77ec08ae6e2360a9aa4760aee2558c41c3bb417430cc36c598eb9168c565a6b258827c78784ef1b216b13b7521e5a29142776f449d54f4cbf870f2ddb8710_1280.jpg" alt="Party Combo" />
+        </div>
+        <div class="offer-content">
+          <h3>Party Makeover Combo</h3>
+          <p>Look stunning at your next celebration</p>
+          <div class="offer-features">
+            <span>✔️ Party makeup & styling</span>
+            <span>✔️ Manicure + pedicure</span>
+            <span>✔️ Eyebrows & finishing touch</span>
+          </div>
+          <div class="offer-pricing">
+            <span class="original-price">₹2,000</span>
+            <span class="offer-price">₹1,600</span>
+            <span class="savings">You Save ₹400</span>
+          </div>
+          <a href="appointment.html" class="offer-btn">Book Now</a>
+        </div>
+      </div>
+
+      <!-- Monthly Beauty -->
+      <div class="offer-card">
+        <div class="offer-image">
+          <img src="https://pixabay.com/get/g490b4bb90631034a0cc8703a384113b3de12665518953cbd25ef836bfa8d3b2e8b02e9a826d2ac4cbb093975fb9ca277bdde6ceb6b36fa19edcfe1879d4233dd_1280.jpg" alt="Monthly Package" />
+        </div>
+        <div class="offer-content">
+          <h3>Monthly Beauty Plan</h3>
+          <p>Affordable beauty care for the whole month</p>
+          <div class="offer-features">
+            <span>✔️ 2 Facials</span>
+            <span>✔️ Threading & Hair wash</span>
+            <span>✔️ Nail Care included</span>
+          </div>
+          <div class="offer-pricing">
+            <span class="original-price">₹2,500</span>
+            <span class="offer-price">₹1,750</span>
+            <span class="savings">You Save ₹750</span>
+          </div>
+          <a href="appointment.html" class="offer-btn">Subscribe Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const countdown = () => {
+      const endDate = new Date("2025-06-15T23:59:59").getTime();
+      const now = new Date().getTime();
+      const gap = endDate - now;
+
+      const d = Math.floor(gap / (1000 * 60 * 60 * 24));
+      const h = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const m = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+
+      document.getElementById("days").innerText = d < 0 ? "00" : d;
+      document.getElementById("hours").innerText = h < 0 ? "00" : h;
+      document.getElementById("minutes").innerText = m < 0 ? "00" : m;
+    };
+    setInterval(countdown, 1000);
+    countdown();
+  </script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
